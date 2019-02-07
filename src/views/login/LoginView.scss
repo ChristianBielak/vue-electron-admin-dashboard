@@ -1,0 +1,48 @@
+@import "../../assets/scss/app";
+
+.login-view {
+
+  .login-row {
+    height: 100vh;
+
+    .login-card {
+      background-color: transparent;
+      border: 1px solid white;
+
+      .card-header {
+        background-color: #fff;
+        color: $ub-dark-blue;
+        font-weight: bolder;
+      }
+
+      .card-body {
+        background-color: transparent;
+
+        .input-group {
+
+          input {
+            border-color: #fff;
+            color: $ub-dark-blue;
+            font-weight: bolder;
+          }
+
+          .input-group-prepend {
+
+            span {
+              border-color: #fff;
+              color: #fff;
+              font-weight: bolder;
+              background-color: transparent;
+            }
+          }
+        }
+
+        .btn-ub{
+          background-color: transparent;
+          border: 1px solid $ub-pink;
+          color: $ub-pink;
+        }
+      }
+    }
+  }
+}

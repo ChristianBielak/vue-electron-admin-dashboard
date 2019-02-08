@@ -1,1 +1,16 @@
 @import '../../assets/scss/app';
+
+.navigation-component {
+
+  &.navbar {
+    background-color: $ub-dark-blue;
+
+    a {
+      color: #fff;
+
+      &.nav-link {
+        color: #fff;
+      }
+    }
+  }
+}

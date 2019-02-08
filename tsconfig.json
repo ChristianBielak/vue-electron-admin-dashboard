@@ -11,9 +11,11 @@
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
     "baseUrl": ".",
+    "strictPropertyInitialization": false,
     "types": [
       "webpack-env",
-      "axios"
+      "axios",
+      "lodash"
     ],
     "paths": {
       "@/*": [

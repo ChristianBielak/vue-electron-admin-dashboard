@@ -7,11 +7,11 @@
 
     .login-card {
       background-color: transparent;
-      border: 1px solid white;
+      border: 1px solid $ub-dark-blue;
 
       .card-header {
-        background-color: #fff;
-        color: $ub-dark-blue;
+        background-color: $ub-dark-blue;
+        color: #fff;
         font-weight: bolder;
       }
 
@@ -21,7 +21,7 @@
         .input-group {
 
           input {
-            border-color: #fff;
+            border-color: $ub-dark-blue;
             color: $ub-dark-blue;
             font-weight: bolder;
           }
@@ -29,8 +29,8 @@
           .input-group-prepend {
 
             span {
-              border-color: #fff;
-              color: #fff;
+              border-color: $ub-dark-blue;
+              color: $ub-dark-blue;
               font-weight: bolder;
               background-color: transparent;
             }

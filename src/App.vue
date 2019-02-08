@@ -1,7 +1,9 @@
 <template>
     <div id="app">
         <navigation-component></navigation-component>
-        <router-view/>
+        <div class="py-4">
+            <router-view/>
+        </div>
     </div>
 </template>
 
@@ -12,7 +14,7 @@
     import NavigationComponent from "@/components/navigation/NavigationComponent";
 
     @Component({
-        components:{
+        components: {
             NavigationComponent
         }
     })

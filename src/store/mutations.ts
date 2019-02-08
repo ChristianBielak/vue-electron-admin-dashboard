@@ -1,5 +1,8 @@
+import {Article} from "@/pagebuilder/models/Article";
+
 export default {
 
+    /* Auth stuff */
     login(state: any) {
         state.loading = true;
         state.auth_error = null;
@@ -28,4 +31,18 @@ export default {
     registerFailed(state: any, payload: any) {
         state.reg_error = payload.error;
     },
+
+    /* Pagebuilder stuff */
+    setElementTypes: function (state: any, elementTypes: any) {
+        state.element_types = elementTypes;
+    },
+    setLanguages(state: any, languages: any) {
+        state.languages = languages;
+    },
+    setCurrentLang(state: any, lang: any) {
+        state.currentLang = lang;
+    },
+    setArticle(state:any, article:Article){
+        state.article = article;
+    }
 }

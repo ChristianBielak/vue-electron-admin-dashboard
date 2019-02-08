@@ -12,8 +12,17 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <!-- Left Side Of Navbar -->
-                <ul class="navbar-nav mr-auto">
-
+                <ul class="navbar-nav mr-auto" v-if="currentUser">
+                    <li class="nav-item">
+                        <router-link class="nav-link" :to="{name: 'articles-index'}">
+                            Articles
+                        </router-link>
+                    </li>
+                    <li class="nav-item">
+                        <router-link class="nav-link" :to="{name: 'elements'}">
+                            Elements
+                        </router-link>
+                    </li>
                 </ul>
 
                 <!-- Right Side Of Navbar -->
